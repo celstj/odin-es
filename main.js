@@ -23,7 +23,15 @@
     - function, reset
     - when button click, trigger function
     - on function, clear colour
-*/
+
+    extra: 
+     -randomize square's RGB value on interaction
+     - implement a progressive darkening effect where each interaction 
+       adds 10% more black or colour to the square, obj: completely 
+       black square after 10 interactions.
+
+    */
+
 
 const defaultColour = '#00FF00';
 const defaultSize = 16;
